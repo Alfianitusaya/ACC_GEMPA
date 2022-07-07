@@ -2,7 +2,7 @@
 
 How to install this application
 
-1. Run Command `git clone url`
+1. Run Command `git clone url https://github.com/Alfianitusaya/ACC_GEMPA.git`
 2. Then run `cd folderproject`
 3. After that run `composer update`
 4. Go back to the folder and change the **_.env.example_** to **_.env_**
