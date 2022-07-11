@@ -2,7 +2,7 @@
 
 How to install this application
 
-1. Run Command `git clone url https://github.com/Alfianitusaya/ACC_GEMPA.git`
+1. Run Command `git clone https://github.com/Alfianitusaya/ACC_GEMPA.git`
 2. Then run `cd folderproject`
 3. After that run `composer update`
 4. Go back to the folder and change the **_.env.example_** to **_.env_**
@@ -11,4 +11,5 @@ How to install this application
 7. Then open the terminal on the vscode and run `php artisan migrate`
 8. After that run `php artisan db:seed`
 9. Check the database if already filled with some data
-10. Run `php artisan serve` and go to `http://127.0.0.1:8000/`
+10. Before run, please run  `php artisan storage:link`
+11. Run `php artisan serve` and go to `http://127.0.0.1:8000/`
